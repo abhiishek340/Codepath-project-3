@@ -1,0 +1,31 @@
+{
+  "name": "unitygridplaza",
+  "type": "module",
+  "scripts": {
+    "dev": "concurrently \"cd client && vite\" \"cd server && nodemon server\"",
+    "client": "cd client && vite",
+    "start": "cd server && node server",
+    "build": "cd client && vite build",
+    "reset": "cd server/config && node reset.js",
+    "delete": "cd server/config && node delete.js"
+  },
+  "dependencies": {
+    "@picocss/pico": "^1.5.7",
+    "concurrently": "^7.6.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "nodemon": "^2.0.22",
+    "pg": "^8.10.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.9.0",
+    "serve-favicon": "^2.5.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.28",
+    "@types/react-dom": "^18.0.11",
+    "@vitejs/plugin-react": "^3.1.0",
+    "vite": "^4.2.0"
+  }
+}

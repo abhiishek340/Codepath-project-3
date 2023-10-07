@@ -1,0 +1,39 @@
+.location-events {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: no-wrap;
+}
+
+.location-events header {
+    background-color: var(--main-color);
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    column-gap: 10px;
+}
+
+.location-image img {
+    width: 300px;
+    height: auto;
+    border: 1px solid white;
+    margin-left: 20px;
+}
+
+.location-events header p {
+    color: white;
+    font-size: 0.8em;
+    margin-bottom: 0px;
+}
+
+.location-events main {
+    text-align: center;
+    padding: 30px;
+    margin: 30px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.location-events main i {
+    margin-right: 10px;
+}

@@ -1,0 +1,59 @@
+.available-locations {
+    display: flex;
+    justify-content: center;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+svg {
+    position: absolute;
+    top: -1px;
+    left: 0;
+    width: 100%;
+}
+
+svg polygon {
+    fill: transparent;
+    cursor: pointer;
+}
+
+svg polygon:hover {
+    fill: rgba(55, 216, 232, 0.2);
+}
+
+.venue1-button-overlay {
+    opacity: 0;
+    z-index: 10;
+    position: relative;
+    top: 15%;
+    left: -5%;
+}
+
+.venue2-button-overlay {
+    opacity: 0;
+    z-index: 10;
+}
+
+.venue3-button-overlay {
+    opacity: 0;
+    z-index: 10;
+    position: relative;
+    left: 30%;
+}
+
+.venue4-button-overlay {
+    opacity: 0;
+    z-index: 10;
+    position: relative;
+    top: 20%;
+    left: -5%;
+}
+
+.venue1-button-overlay button,
+.venue2-button-overlay button,
+.venue3-button-overlay button,
+.venue4-button-overlay button {
+    width: 200px;
+    text-transform: uppercase;
+    font-weight: 700;
+}

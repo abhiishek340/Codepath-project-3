@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;700;800;900&display=swap');
+
+#root {
+    background: url('./assets/unitygrid.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    background-color: var(--secondary-color);
+    font-family: Nunito Sans, Verdana, sans-serif;
+    height: 100vh;
+    --main-color: rgb(217, 29, 242);
+    --secondary-color: rgb(3, 1, 64);
+    --primary: var(--main-color);
+    --primary-hover: rgb(111, 28, 166);
+    --primary-focus: rgb(217, 29, 242);
+    --secondary: var(--secondary-color);
+    --secondary-hover: rgb(4, 66, 191);
+    --secondary-focus: rgb(111, 28, 166);
+    --h1-color: white;
+    --h2-color: white;
+    --h3-color: white;
+    --card-background-color: none;
+    --form-element-background-color: white;
+    --form-element-border-color: var(--main-color);
+    --form-element-color: black;
+    --form-element-placeholder-color: black;
+    --form-element-active-border-color: var(--secondary-color);
+    --form-element-active-background-color: white;
+}
+
+#root h1, #root h2, #root h3 {
+    text-transform: uppercase;
+    margin-bottom: 0px;
+}
+
+#root h1 {
+    font-family: Rock Salt, cursive;
+    font-size: 3em;
+    font-weight: bold;
+    text-shadow: 3px 3px 4px black;
+}
+
+#root h2 {
+    font-family: Nunito Sans, Verdana, sans-serif;
+    font-size: 2em;
+    font-weight: 800;
+}
+
+#root h3 {
+    font-family: Nunito Sans, Verdana, sans-serif;
+    font-size: 1.3em;
+    font-weight: 800;
+}
+
+#root main {
+    display: flex;
+    justify-content: center;
+}
+
+#root [role=button] {
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 1.5em;
+    border: 2px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#root article {
+    padding: 0px;
+}
+
+#root select {
+    width: 400px;
+}
